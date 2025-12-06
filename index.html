@@ -103,35 +103,75 @@
 <div id="portfolio">
     <div class="container">
         <h1 class="sub-title">My Work</h1>
+
+        <!-- First visible row -->
         <div class="work-list">
             <div class="work">
                 <img src="images/work-1.png">
                 <div class="layer">
                     <h3>My LinkedIn</h3>
                     <p>Connect with me and view my wonderful profile on LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/ryan-afshar-b85a532a1/" target="_blank"></i></a>
+                    <a href="https://www.linkedin.com/in/ryan-afshar-b85a532a1/" target="_blank"></a>
                 </div>
             </div>
+
             <div class="work">
                 <img src="images/work-2.png">
                 <div class="layer">
-    <h3>Unity Horror Game – Thalassophobia</h3>
-    <p>A suspense-focused underwater survival game built in Unity. Currently in development.</p>
-    <a href="https://github.com/RyanAfshar/Thalassophobia-Build" target="_blank">
-        <i class="fas fa-external-link-alt"></i>
-    </a>
-</div>
+                    <h3>Unity Horror Game – Thalassophobia</h3>
+                    <p>A suspense-focused underwater survival game built in Unity. Currently in development.</p>
+                    <a href="https://github.com/RyanAfshar/Thalassophobia-Build" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
             </div>
+
             <div class="work">
                 <img src="images/work-3.png">
                 <div class="layer">
                     <h3>Cryptography Tool</h3>
                     <p>A C++ encryption and decryption program demonstrating file I/O, Caesar shifts, and basic cryptography concepts.</p>
-                    <a href="https://github.com/RyanAfshar/Cryptography-Tool/tree/main" target="_blank"></i></a>
+                    <a href="https://github.com/RyanAfshar/Cryptography-Tool/tree/main" target="_blank"></a>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See more</a>
+
+        <!-- Hidden extra projects row -->
+        <div class="work-list extra-work hidden">
+            <div class="work">
+                <img src="images/work-4.png" alt="MTG Commander Checker">
+                <div class="layer">
+                    <h3>MTG Commander Checker</h3>
+                    <p>A small web app that checks whether a commander is taken in my playgroup by reading from a shared Google Sheet.</p>
+                    <a href="https://ryanafshar.github.io/MTG-Commander-Search/" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- you can add more <div class="work">...</div> here later if you want -->
+        </div>
+
+        <a href="javascript:void(0)" class="btn" id="see-more-btn">See more</a>
+    </div>
+</div>
+    <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <!-- FIRST ROW (already visible) -->
+        <div class="work-list">
+            ... your 3 projects ...
+        </div>
+
+        <!-- SECOND ROW (hidden until button is clicked) -->
+        <div class="work-list extra-work hidden">
+            ... new project(s) go here ...
+        </div>
+
+        <!-- ⭐️ THIS IS WHERE "SEE MORE" GOES ⭐️ -->
+        <a href="javascript:void(0)" class="btn" id="see-more-btn">See more</a>
+        <!-- ⭐️ END ⭐️ -->
+
     </div>
 </div>
 <!-- ----------contact------------- -->
@@ -219,6 +259,7 @@
 </body>
 
 </html>
+
 
 
 
