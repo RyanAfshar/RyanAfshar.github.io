@@ -7,7 +7,6 @@
     <title>Personal Portfolio Website - Cyber Security</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    
 </head>
 <body>
 <div id="header">
@@ -30,6 +29,7 @@
         </div>
     </div>
 </div>
+
 <!-- -----------about---------- -->
 <div id="about">
     <div class="container">
@@ -49,13 +49,13 @@
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
                         <li><span>Programming Languages</span><br>Java, Python, C++, (Learning: JavaScript, HTML/CSS)</li>
-                        <li><span>CyberSecurity Tools</span><br>nmap (Planned),Wireshark, Hashcat, TryHackMe</li>
-                        <li><span>Cloud & DevOps</span><br> AWS (S3, Lambda, EC2 basics), Git, GitHub, GCP</li>
+                        <li><span>CyberSecurity Tools</span><br>nmap (Planned), Wireshark, Hashcat, TryHackMe</li>
+                        <li><span>Cloud & DevOps</span><br>AWS (S3, Lambda, EC2 basics), Git, GitHub, GCP</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience">
                     <ul>
-                        <li><span>May 2023 - August 2023</span><br>Point of Sale Attendent at Target</li>
+                        <li><span>May 2023 - August 2023</span><br>Point of Sale Attendant at Target</li>
                         <li><span>Dec 2016 - March 2020</span><br>Volunteer Instructor at Irvine Goshin Kai</li>
                     </ul>
                 </div>
@@ -69,36 +69,36 @@
         </div>
     </div>
 </div>
+
 <!-- ---------services---------------- -->
 <div id="services">
     <div class="container">
         <h1 class="sub-title">My Services</h1>
-<div class="services-list">
+        <div class="services-list">
+            <div>
+                <i class="fas fa-shield-alt"></i>
+                <h2>Vulnerability Analysis</h2>
+                <p>I analyze systems and applications to identify security weaknesses, misconfigurations, and potential attack surfaces.</p>
+                <a href="#">Learn more</a>
+            </div>
 
-    <div>
-        <i class="fas fa-shield-alt"></i>
-        <h2>Vulnerability Analysis</h2>
-        <p>I analyze systems and applications to identify security weaknesses, misconfigurations, and potential attack surfaces.</p>
-        <a href="#">Learn more</a>
-    </div>
+            <div>
+                <i class="fas fa-terminal"></i>
+                <h2>Security Research & Tools</h2>
+                <p>I build tools and experiment with encryption, automation, and real-world attack techniques to strengthen my security skills.</p>
+                <a href="#">Learn more</a>
+            </div>
 
-    <div>
-        <i class="fas fa-terminal"></i>
-        <h2>Security Research & Tools</h2>
-        <p>I build tools and experiment with encryption, automation, and real-world attack techniques to strengthen my security skills.</p>
-        <a href="#">Learn more</a>
-    </div>
-
-    <div>
-        <i class="fas fa-network-wired"></i>
-        <h2>System & Network Hardening</h2>
-        <p>I apply defensive techniques such as least-privilege configuration, firewall tuning, and secure coding practices.</p>
-        <a href="#">Learn more</a>
-    </div>
-
-</div>
+            <div>
+                <i class="fas fa-network-wired"></i>
+                <h2>System & Network Hardening</h2>
+                <p>I apply defensive techniques such as least-privilege configuration, firewall tuning, and secure coding practices.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
     </div>
 </div>
+
 <!-- ----------portfolio------------ -->
 <div id="portfolio">
     <div class="container">
@@ -110,8 +110,10 @@
                 <img src="images/work-1.png">
                 <div class="layer">
                     <h3>My LinkedIn</h3>
-                    <p>Connect with me and view my wonderful profile on LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/ryan-afshar-b85a532a1/" target="_blank"></a>
+                    <p>Connect with me and view my wonderful profile on LinkedIn.</p>
+                    <a href="https://www.linkedin.com/in/ryan-afshar-b85a532a1/" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
                 </div>
             </div>
 
@@ -131,7 +133,9 @@
                 <div class="layer">
                     <h3>Cryptography Tool</h3>
                     <p>A C++ encryption and decryption program demonstrating file I/O, Caesar shifts, and basic cryptography concepts.</p>
-                    <a href="https://github.com/RyanAfshar/Cryptography-Tool/tree/main" target="_blank"></a>
+                    <a href="https://github.com/RyanAfshar/Cryptography-Tool/tree/main" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -142,38 +146,18 @@
                 <img src="images/work-4.jpg" alt="MTG Commander Checker">
                 <div class="layer">
                     <h3>MTG Commander Checker</h3>
-                    <p>A small web app that checks whether a commander is taken in my playgroup by reading from a shared Google Sheet.</p>
+                    <p>A web app that checks whether a commander is taken in my playgroup by reading from a shared Google Sheet.</p>
                     <a href="https://ryanafshar.github.io/MTG-Commander-Search/" target="_blank">
                         <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
             </div>
-            <!-- you can add more <div class="work">...</div> here later if you want -->
         </div>
 
         <a href="javascript:void(0)" class="btn" id="see-more-btn">See more</a>
     </div>
 </div>
-    <div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
 
-        <!-- FIRST ROW (already visible) -->
-        <div class="work-list">
-            ... your 3 projects ...
-        </div>
-
-        <!-- SECOND ROW (hidden until button is clicked) -->
-        <div class="work-list extra-work hidden">
-            ... new project(s) go here ...
-        </div>
-
-        <!-- ⭐️ THIS IS WHERE "SEE MORE" GOES ⭐️ -->
-        <a href="javascript:void(0)" class="btn" id="see-more-btn">See more</a>
-        <!-- ⭐️ END ⭐️ -->
-
-    </div>
-</div>
 <!-- ----------contact------------- -->
 <div id="contact">
     <div class="container">
@@ -184,9 +168,9 @@
                 <p><i class="fas fa-phone-square-alt"></i> 949-514-5694</p>
                 <div class="social-icons">
                     <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-twitter-square"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <a href="images/my-resume.pdf" download class="btn btn2">Download Résumé</a>
             </div>
@@ -202,32 +186,27 @@
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright © Ryan.  <p></p>
+        <p>Copyright © Ryan.</p>
     </div>
 </div>
 
-
-
 <script>
-
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
 
     function opentab(tabname){
-        for(tablink of tablinks){
+        for (tablink of tablinks){
             tablink.classList.remove("active-link");
         }
-        for(tabcontent of tabcontents){
+        for (tabcontent of tabcontents){
             tabcontent.classList.remove("active-tab");
         }
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
-
 </script>
 
 <script>
-
     var sidemeu = document.getElementById("sidemenu");
 
     function openmenu(){
@@ -236,28 +215,41 @@
     function closemenu(){
         sidemeu.style.right = "-200px";
     }
-
 </script>
+
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwlEuoOhov30ASiG3WN3jYg9CCV4P25grjfi-Am2N5WgJFJIOQ47XUmqR24tfkrN8ETXQ/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwlEuoOhov30ASiG3WN3jYg9CCV4P25grjfi-Am2N5WgJFJIOQ47XUmqR24tfkrN8ETXQ/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
   
     form.addEventListener('submit', e => {
-      e.preventDefault()
+      e.preventDefault();
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
-            msg.innerHTML = "Message sent successfully"
+            msg.innerHTML = "Message sent successfully";
             setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
+                msg.innerHTML = "";
+            },5000);
+            form.reset();
         })
-        .catch(error => console.error('Error!', error.message))
-    })
+        .catch(error => console.error('Error!', error.message));
+    });
 </script>
-</body>
 
+<!-- See more script -->
+<script>
+    const seeMoreBtn = document.getElementById('see-more-btn');
+    const extraWorkRow = document.querySelector('.extra-work');
+
+    if (seeMoreBtn && extraWorkRow) {
+        seeMoreBtn.addEventListener('click', () => {
+            extraWorkRow.classList.remove('hidden'); // show extra projects
+            seeMoreBtn.style.display = 'none';       // hide button after click
+        });
+    }
+</script>
+
+</body>
 </html>
 
 
